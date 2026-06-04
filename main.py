@@ -46,4 +46,21 @@ class Bot(BaseBot):
 if __name__ == "__main__":
     room_id = authorization.room
     token = authorization.token
-    arun(Bot().run(room_id, token))
+    arun(Bot().run(room_id, token)
+from flask import Flask
+import threading
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "Bot online!"
+
+def run():
+    app.run(host='0.0.0.0', port=10000)
+
+def keep_alive():
+    t = threading.Thread(target=run)
+    t.start()
+
+keep_alive()
