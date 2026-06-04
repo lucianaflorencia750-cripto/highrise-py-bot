@@ -1,8 +1,8 @@
 {
     "permissions": [
         {
-            "user_id": "change-me",
-            "username": "change-me",
+            "user_id": "@_florcitaa_",
+            "username": "_florcitaa_",
             "permissions": [
                 "emote",
                 "teleport",
@@ -12,8 +12,8 @@
             ]
         },
         {
-            "user_id": "change-me",
-            "username": "change-me",
+            "user_id": "@_florcitaa_",
+            "username": "_flocitaa_",
             "permissions": [
                 "emote",
                 "teleport",
